@@ -1,0 +1,68 @@
+* {
+  margin: none;
+  padding: none;
+}
+body {
+  background: #feffed;
+  color: white;
+}
+.container {
+  display: flex;
+}
+.player {
+  width: 79vh;
+  height: 79vh;
+  border: none;
+  outline: none;
+  box-shadow: 0.5px 0.5px 0.5px 2px white;
+  background: black;
+
+  display: grid;
+  row-gap: 0;
+  margin: auto;
+  margin-top: 65px;
+  border-radius: 500px;
+}
+.playing-anim {
+  width: 8.5rem;
+  height: 8.5rem;
+  border-radius: 100px;
+  margin: auto;
+}
+.controls {
+  display: flex;
+}
+.btn-control {
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 50px;
+  margin-left: 73px;
+  background-color: white;
+  border: none;
+  outline: none;
+}
+.fa-play,
+.fa-pause {
+  pointer-events: none;
+}
+.input-class {
+  display: none;
+}
+.song-data {
+  margin: auto;
+  padding: none;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-items: flex-start;
+}
+
+.slidecontainer {
+  margin-top: 10px;
+  margin-left: 157px;
+}
+.duration {
+  margin-left: 15px;
+}
+.timeslider {
+  margin-left: 15px;
+}
